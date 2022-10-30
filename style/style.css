@@ -28,7 +28,6 @@ body{
 }
 
 #navbar > .menus li {
-    font-size: 1.5em;
     display: flex;
     align-content: flex-end;
     padding-right: 25px;
@@ -50,4 +49,27 @@ body{
 
 #banner {
     width: 100%;
+}
+
+#destaque {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#destaque > h1 {
+    font-size: 3em;
+    text-align: center;
+    color: rgb(56, 56, 56);
+}
+
+#destaque > article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#destaque > article img {
+    
 }
