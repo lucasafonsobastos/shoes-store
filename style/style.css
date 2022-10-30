@@ -1,8 +1,53 @@
-@inport url('https://fonts.googleapis.com/css?family=Comfortaa')
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 
 
+body{
+    width: 100%;
+    font-family: Comfortaa ,sans-serif;
+    padding: 0;
+    margin: 0;
+}
 
-body {
+#navbar {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-content: space-between;
+
+}
+
+#navbar > .menus {
+    color: gray;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#navbar > .menus li {
+    font-size: 1.5em;
+    display: flex;
+    align-content: flex-end;
+    padding-right: 25px;
+    opacity: .6;
+    text-align: center;
+
+}
+
+#navbar > .menus li:hover {
+    text-decoration: underline rgb(0, 162, 255);;
+    opacity: .9;
     
-    font-family: Comfortaa;
+}
+
+#logo {
+    width: 12rem;
+    padding-left: 2em;
+}
+
+#banner {
+    width: 100%;
 }
